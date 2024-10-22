@@ -1,0 +1,9 @@
+// Custom SCSS Pagination
+.page-item.active .page-link {
+  background-color: var(--primary) !important;
+  border-color: var(--primary) !important;
+  color: #fff !important;
+}
+.page-link {
+  color: var(--primary) !important;
+}

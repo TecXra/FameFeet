@@ -1,0 +1,23 @@
+// Override Boostrap variables
+// @import "bootstrap-variables";
+
+// Import Bootstrap source files
+// @import "node_modules/bootstrap/scss/bootstrap";
+/* Google Fonts Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+/* UI Icons CDN */
+@import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
+@import url("https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css");
+:root {
+  --primary: #0097a7;
+  --primarylight: #0097a79e;
+  --secondary: #ffab40;
+  --secondarylight: #ffab40a1;
+}
+// Custom styles
+@import "header";
+@import "sidebar";
+@import "main";
+@import "auth";
+@import "content";
+@import "_custom";

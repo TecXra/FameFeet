@@ -1,0 +1,60 @@
+.ff-Navbar-Mian {
+  background-color: var(--primary);
+  z-index: 5;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  position: sticky;
+  top: 0;
+}
+.navbar-dropdown-avatar {
+  border: solid 2px var(--secondary);
+}
+.sidebar-toggler {
+  padding: 0.25rem 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  border: solid 1px #fff;
+}
+.sidebar-toggler:hover {
+  background-color: var(--secondary);
+  border: solid 1px #fff;
+  transition: all 0.3s ease-in-out 0s;
+}
+.navbar-nav .active {
+  color: white !important;
+  background-color: var(--secondary);
+}
+.navbar-Mian-Item a {
+  color: white;
+  padding: 22px 0px 22px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  color: white !important;
+}
+.navbar-Mian-Item a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: var(--secondary);
+  transition: all 0.3s ease-in-out 0s;
+  padding: 22px 0px 22px 0px;
+}
+.ff-Navbar-signup a {
+  color: white !important;
+  padding: 21px 30px 21px 30px !important;
+  margin-left: 0px;
+  font-size: 18px;
+  background-color: var(--secondary);
+  color: white !important;
+  margin-right: 0px;
+}
+@media only screen and (max-width: 991px) {
+  .navbar-Mian-Item a {
+    padding: 12px 6px 12px 6px !important;
+  }
+  .ff-Navbar-signup a {
+    margin-bottom: 1rem;
+    padding: 12px 6px 12px 6px !important;
+  }
+}

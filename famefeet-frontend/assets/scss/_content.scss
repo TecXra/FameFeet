@@ -1,0 +1,109 @@
+.post-by-content {
+  padding: 12px;
+  background-color: #f4f4f4;
+  height: 100%;
+}
+.post-by-content {
+  position: relative;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+  background-clip: padding-box;
+  border: solid 1px transparent;
+  border-radius: 5px;
+}
+.post-by-content:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: linear-gradient(to bottom, var(--primary), var(--secondary));
+}
+.post-by-content:hover {
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 25%);
+}
+.bg-image {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  padding-top: 100%;
+  position: relative;
+  margin-top: 3px;
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 5px 14px 0px;
+}
+.video-post-player {
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 25%) 0px 5px 14px 0px;
+}
+.single-img {
+  width: calc((100% - ((var(--count) - 1) * var(--gap))) / var(--count));
+  margin-right: var(--gap);
+}
+.content-link:hover {
+  text-decoration: none;
+}
+.content-title {
+  margin-top: -9px;
+  margin-bottom: 3px;
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--primary);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.content-discription {
+  margin-bottom: 3px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* .content-discription:hover{
+    -webkit-line-clamp: 2;
+} */
+.content-image-icon {
+  font-size: 19px;
+}
+.content-count {
+  font-weight: 500;
+}
+/* .content-count:hover {
+    text-decoration: none;
+} */
+
+@media (max-width: 640px) {
+  .content-title {
+    font-size: 16px;
+  }
+  .content-image-icon {
+    font-size: 14px;
+  }
+  .content-count {
+    font-size: 14px;
+  }
+  @media (max-width: 375px) {
+    
+    .content-image-icon {
+      font-size: 11px;
+    }
+    .content-count {
+      font-size: 11px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    
+    .card-footer{
+      padding: 0.75rem 0.5rem;
+    }
+  }
+}

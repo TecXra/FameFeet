@@ -1,0 +1,24 @@
+User-agent: *
+Disallow: 
+Disallow: plugins/*
+Disallow: middleware/*
+Disallow: node_modules/*
+Disallow: nuxt.config.js/*
+Disallow: package.json/*
+Disallow: package-lock.json/*
+Disallow: https://backend.famefeet.com
+Disallow: https://backend.famefeet.com
+Disallow: https://devbackend.famefeet.com
+Disallow: https://admin.famefeet.com
+Disallow: https://devadmin.famefeet.com
+Allow: /assets/
+Allow: /components/
+Allow: /layouts/
+Allow: /pages/
+Allow: /sitemap.xml/
+Allow: /static/
+
+Sitemap: https://famefeet.com/sitemap.xml
+
+
+
